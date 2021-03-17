@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/kashyapid"
+        android:onClick="kashyap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kashyap Singh"
+        android:padding="25dp"
+        android:layout_marginLeft="10dp"
+         />
+    <View style="@style/line"/>
+    <TextView
+        android:id="@+id/manishid"
+        android:onClick="manish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manish Negi"
+        android:padding="25dp"
+        android:layout_marginLeft="10dp"
+        />
+    <View style="@style/line"/>
+    <TextView
+        android:id="@+id/gauravid"
+        android:onClick="gaurav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gaurav raj"
+        android:padding="25dp"
+        android:layout_marginLeft="10dp"
+        />
+    <View style="@style/line"/>
+    <TextView
+        android:id="@+id/shivamid"
+        android:onClick="shivam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shivam Kumar"
+        android:padding="25dp"
+        android:layout_marginLeft="10dp"
+        />
+    <View style="@style/line"/>
+    <TextView
+        android:id="@+id/kameshid"
+        android:onClick="kamesh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kamesh"
+        android:padding="25dp"
+        android:layout_marginLeft="10dp"
+        />
+    <View style="@style/line"/>
+    <TextView
+        android:id="@+id/raghavid"
+        android:onClick="raghav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Raghav"
+        android:padding="25dp"
+        android:layout_marginLeft="10dp"
+        />
+    <View style="@style/line"/>
+    <TextView
+        android:id="@+id/shyamid"
+        android:onClick="shyam"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Shyam"
+        android:padding="25dp"
+        android:layout_marginLeft="10dp"
+    />
+</LinearLayout>

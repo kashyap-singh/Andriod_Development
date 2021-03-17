@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:src="@drawable/androidparty"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scaleType="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:paddingTop="10sp"
+        android:text="Happy Birthday Rishi"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:paddingTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="from kashyap"
+        android:layout_alignParentBottom="true"
+
+        android:gravity="right"
+
+
+</RelativeLayout>
